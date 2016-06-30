@@ -1,10 +1,3 @@
-// import App from './components/App';
-// import React from 'react';
-// import { render } from 'react-dom';
-// require('es6-promise').polyfill();
-// require('isomorphic-fetch');
-//
-// render(<App />, document.getElementById('root'));
 import App from './components/App';
 import CreateWeaponApp from './components/CreateWeaponApp';
 import CreateCreatureApp from './components/CreateCreatureApp';
