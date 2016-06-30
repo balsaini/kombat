@@ -20,6 +20,7 @@ app.listen(port, () => {
   logger.log('info', '[EXPRESS] - listening port: %d', port);
 });
 
+app.use('/creature', require('./controllers/creature'));
 app.use('/weapon', require('./controllers/weapon'));
 
 app.get('*', (req, res) => {
